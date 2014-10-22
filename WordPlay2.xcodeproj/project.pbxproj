@@ -14,6 +14,11 @@
 		4FB5ECEF19F7728400E0AF7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB5ECEE19F7728400E0AF7C /* Images.xcassets */; };
 		4FB5ECF219F7728400E0AF7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FB5ECF019F7728400E0AF7C /* LaunchScreen.xib */; };
 		4FB5ECFE19F7728400E0AF7C /* WordPlay2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5ECFD19F7728400E0AF7C /* WordPlay2Tests.m */; };
+		4FB5ED0919F7734C00E0AF7C /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5ED0819F7734C00E0AF7C /* EnterNameViewController.m */; };
+		4FB5ED0C19F7742400E0AF7C /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5ED0B19F7742400E0AF7C /* EnterAdjectiveViewController.m */; };
+		4FB5ED0F19F7747600E0AF7C /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5ED0E19F7747600E0AF7C /* ResultsViewController.m */; };
+		4FB5ED1219F77C2F00E0AF7C /* EnterNounViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5ED1119F77C2F00E0AF7C /* EnterNounViewController.m */; };
+		4FB5ED1519F77C4100E0AF7C /* EnterAdverbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5ED1419F77C4100E0AF7C /* EnterAdverbViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		4FB5ECF719F7728400E0AF7C /* WordPlay2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlay2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB5ECFC19F7728400E0AF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB5ECFD19F7728400E0AF7C /* WordPlay2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlay2Tests.m; sourceTree = "<group>"; };
+		4FB5ED0719F7734C00E0AF7C /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		4FB5ED0819F7734C00E0AF7C /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		4FB5ED0A19F7742400E0AF7C /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		4FB5ED0B19F7742400E0AF7C /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		4FB5ED0D19F7747600E0AF7C /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		4FB5ED0E19F7747600E0AF7C /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		4FB5ED1019F77C2F00E0AF7C /* EnterNounViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNounViewController.h; sourceTree = "<group>"; };
+		4FB5ED1119F77C2F00E0AF7C /* EnterNounViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNounViewController.m; sourceTree = "<group>"; };
+		4FB5ED1319F77C4100E0AF7C /* EnterAdverbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdverbViewController.h; sourceTree = "<group>"; };
+		4FB5ED1419F77C4100E0AF7C /* EnterAdverbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdverbViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,16 @@
 				4FB5ECE619F7728400E0AF7C /* AppDelegate.m */,
 				4FB5ECE819F7728400E0AF7C /* ViewController.h */,
 				4FB5ECE919F7728400E0AF7C /* ViewController.m */,
+				4FB5ED0719F7734C00E0AF7C /* EnterNameViewController.h */,
+				4FB5ED0819F7734C00E0AF7C /* EnterNameViewController.m */,
+				4FB5ED0A19F7742400E0AF7C /* EnterAdjectiveViewController.h */,
+				4FB5ED0B19F7742400E0AF7C /* EnterAdjectiveViewController.m */,
+				4FB5ED1019F77C2F00E0AF7C /* EnterNounViewController.h */,
+				4FB5ED1119F77C2F00E0AF7C /* EnterNounViewController.m */,
+				4FB5ED1319F77C4100E0AF7C /* EnterAdverbViewController.h */,
+				4FB5ED1419F77C4100E0AF7C /* EnterAdverbViewController.m */,
+				4FB5ED0D19F7747600E0AF7C /* ResultsViewController.h */,
+				4FB5ED0E19F7747600E0AF7C /* ResultsViewController.m */,
 				4FB5ECEB19F7728400E0AF7C /* Main.storyboard */,
 				4FB5ECEE19F7728400E0AF7C /* Images.xcassets */,
 				4FB5ECF019F7728400E0AF7C /* LaunchScreen.xib */,
@@ -221,7 +246,12 @@
 			files = (
 				4FB5ECEA19F7728400E0AF7C /* ViewController.m in Sources */,
 				4FB5ECE719F7728400E0AF7C /* AppDelegate.m in Sources */,
+				4FB5ED0C19F7742400E0AF7C /* EnterAdjectiveViewController.m in Sources */,
+				4FB5ED0F19F7747600E0AF7C /* ResultsViewController.m in Sources */,
+				4FB5ED0919F7734C00E0AF7C /* EnterNameViewController.m in Sources */,
+				4FB5ED1219F77C2F00E0AF7C /* EnterNounViewController.m in Sources */,
 				4FB5ECE419F7728400E0AF7C /* main.m in Sources */,
+				4FB5ED1519F77C4100E0AF7C /* EnterAdverbViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
